@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "V4CosmosDbStateBot", "MigrationTest\V4CosmosDbStateBot.csproj", "{AE724081-762F-487D-BA16-6DDA94E470B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bot.Builder.Storage.Migration", "Bot.Builder.Storage.Migration\Bot.Builder.Storage.Migration.csproj", "{3D50FBE1-77B6-4C5E-AF04-C35CC675F9FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE724081-762F-487D-BA16-6DDA94E470B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE724081-762F-487D-BA16-6DDA94E470B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE724081-762F-487D-BA16-6DDA94E470B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE724081-762F-487D-BA16-6DDA94E470B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D50FBE1-77B6-4C5E-AF04-C35CC675F9FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D50FBE1-77B6-4C5E-AF04-C35CC675F9FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D50FBE1-77B6-4C5E-AF04-C35CC675F9FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D50FBE1-77B6-4C5E-AF04-C35CC675F9FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3C2BB2C-63E0-46D6-9328-8A1B4C0206C2}
+	EndGlobalSection
+EndGlobal
